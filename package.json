@@ -1,0 +1,40 @@
+{
+  "name": "mgraph.random",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Operation with seeded random numbers for mgraph.*",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "test": "tap --allow-incomplete-coverage test/*.js",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mfeldman143/mgraph.random.git"
+  },
+  "keywords": [
+    "mgraph",
+    "random",
+    "seeded",
+    "prng",
+    "shuffle"
+  ],
+  "author": "Michael Feldman",
+  "contributors": [
+    {
+      "name": "Andrei Kashcha",
+      "url": "https://github.com/anvaka",
+      "note": "Original author of ngraph.random"
+    }
+  ],
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/mfeldman143/mgraph.random/issues"
+  },
+  "devDependencies": {
+    "tap": "^21.0.2",
+    "rollup": "^4.34.6",
+    "@rollup/plugin-terser": "^0.4.0"
+  }
+}
