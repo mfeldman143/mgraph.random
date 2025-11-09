@@ -2,11 +2,9 @@ README.md
 
 # mgraph.random
 
-Operation with seeded random numbers for mgraph.*.  
-This library provides seeded pseudorandom number generation along with utilities for array shuffling, Gaussian, and Lévy distributions.  
+Operation with seeded random numbers for mgraph.*.
+This library provides seeded pseudorandom number generation along with utilities for array shuffling, Gaussian, and Lévy distributions.
 It is a modern port of the original [ngraph.random](https://github.com/anvaka/ngraph.random) library.
-
-[![build status](https://img.shields.io/travis/mfeldman143/mgraph.random.svg)](https://travis-ci.org/mfeldman143/mgraph.random)
 
 ## Install
 
