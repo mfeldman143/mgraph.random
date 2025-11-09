@@ -4,3 +4,5 @@ dist/
 .vscode
 .tap
 .env
+.travis.yml
+CLAUDE.md
